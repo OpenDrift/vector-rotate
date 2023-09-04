@@ -1,0 +1,13 @@
+name: vector-rotate
+channels:
+  - conda-forge
+dependencies:
+  - xarray
+  - netcdf4
+  - pytest
+  - pyproj
+  - matplotlib
+  - cartopy
+  - pyresample
+  - numpy
+
