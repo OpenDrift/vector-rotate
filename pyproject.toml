@@ -1,0 +1,15 @@
+[project]
+name = "vector-rotate"
+version = "0.1.0"
+description = "Rotate projected vectors from a coordinate reference system (CRS) to another."
+authors = [ { name = "Knut-Frode Dagestad", email = "knutfd@met.no" }, { name = "Thomas Lavergne", email = "thomasl@met.no" }, { name = "Gaute Hope", email = "gauteh@met.no" } ]
+dependencies = [ "pyproj", "numpy" ]
+
+[project.optional-dependencies]
+tests = [ "pyresample", "xarray", "matplotlib" ]
+
+[project.urls]
+repository = "http://github.com/OpenDrift/vector-rotate"
+
+# [project.scripts]
+# "sfydata" = "sfy.cli.sfydata:sfy"
