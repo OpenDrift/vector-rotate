@@ -1,9 +1,6 @@
 import numpy as np
 import pyproj
-import functools
 
-
-@functools.cache
 def rotation_unit_vectors(x_from, y_from, crs_from, crs_to):
     """Compute two sets of unit vectors (ux and uy) defining the x and y axes of the rotation.
 

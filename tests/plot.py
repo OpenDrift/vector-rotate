@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
-import cartopy
+import cmocean
+import numpy as np
+import pyproj
 
 def plot_rotation_unit_vectors(x_from, y_from, ux, uy, ccrs_from, ccrs_to, ev=5):
     """Plot two views of the unit vectors. First in the 'to' crs, then in the 'from' crs."""
